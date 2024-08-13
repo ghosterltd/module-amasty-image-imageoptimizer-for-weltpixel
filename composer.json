@@ -1,0 +1,37 @@
+{
+    "name": "ghoster/module-amasty-image-imageoptimizer-for-weltpixel",
+    "description": "Magento 2 add-on to make Amasty_ImageOptimizer work with WeltPixel theme.",
+    "require": {
+        "amasty/module-image-optimizer": "^2.0"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "archive": {
+        "exclude": [
+            "/.gitignore",
+            "/grumphp.yml",
+            "/pdepend.xml",
+            "/phpstan.neon",
+            "/phpunit.xml",
+            "/phpcs.xml",
+            "/phpmd.xml",
+            "/package.json",
+            "/.eslintrc.json",
+            "/.eslintignore",
+            "/tests",
+            "/.github"
+        ]
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GhoSter\\AmastyImageOptimizerForWeltPixel\\": ""
+        }
+    }
+}

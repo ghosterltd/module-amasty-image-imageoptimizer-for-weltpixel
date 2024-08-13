@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="WeltPixel\OwlCarouselSlider\Block\Slider\Custom">
+        <plugin sortOrder="10" name="GhoSter_AmastyImageOptimizerForWeltPixel::support_weltpixel_owlcarousel_slider"
+                type="GhoSter\AmastyImageOptimizerForWeltPixel\Plugin\Block\Slider\CustomPlugin"/>
+    </type>
+    <type name="WeltPixel\CustomHeader\Block\Rewrite\Html\Header\Logo">
+        <plugin sortOrder="10" name="GhoSter_AmastyImageOptimizerForWeltPixel::support_weltpixel_header_logo"
+                type="GhoSter\AmastyImageOptimizerForWeltPixel\Plugin\Block\Rewrite\Html\Header\LogoPlugin"/>
+    </type>
+</config>
